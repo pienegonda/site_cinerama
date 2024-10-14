@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(34,193,195,1) 10%, rgba(253,187,45,1) 100%);
+}
+
+body, input, textarea, button {
+    font-family: "Bungee", sans-serif;
+}
+
+header {
+    color: white;
+    font-weight: normal;
+    padding: 16px 0;
+    font-family: "Bungee", sans-serif;
+    background-color: black;
+}
+
+header nav li {
+    display: inline;
+    padding: 13px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container li img {
+    margin: 10px;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+section .container li {
+    display: inline;
+}
+
+section .container button {
+    width: 180px;
+    height: 45px;
+    margin-left: 50px;
+    margin-right: 38px;
+    border-radius: 15px;
+    background-color: rgb(30, 28, 28);
+    color: white;
+    font-size: large;
+}
+
+.container button:hover {
+    background-color: rgba(253,187,45,1);
+    color: black;
+    font-size: large ;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    padding: 8px;
+}
+
+form button {
+    margin-bottom: 34px;
+}
+
+.container2 {
+    margin-top: 60px;
+    margin-left: 740px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.container2 form button {
+    background-color: rgb(30, 28, 28);
+    color: white;
+    font-size: large;
+    font-weight: normal;
+    border-radius: 15px;
+}
+
+.container2 form button:hover {
+    background-color: rgba(253,187,45,1);
+    color: black;
+    font-size: large ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(25, 24, 24);
+    color: white;
+    padding: 16px 0;
+}
+
+footer p:hover {
+    color:  rgba(253,187,45,1);
+}
